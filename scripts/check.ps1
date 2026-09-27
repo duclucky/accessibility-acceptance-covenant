@@ -1,5 +1,7 @@
 $ErrorActionPreference = "Stop"
 $env:PYTHONUTF8 = "1"
+$venvScripts = (Resolve-Path -LiteralPath .\.venv\Scripts).Path
+$env:PATH = "$venvScripts;$env:PATH"
 
 & .\.venv\Scripts\genvm-lint.exe check contracts\accessibility_acceptance_covenant.py
 if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
