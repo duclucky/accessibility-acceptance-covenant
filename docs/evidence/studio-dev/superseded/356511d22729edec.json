@@ -1,0 +1,13 @@
+{
+  "record_type": "superseded_deployment",
+  "reason": "Evidence acquisition bound increased to admit the exact WCAG 2.2 policy document; no lifecycle writes or user value were sent to this revision.",
+  "network": "studio-dev",
+  "chain_id": 61997,
+  "source_sha256": "356511d22729edec3856a7a2538e3ee8b1ec3fa3ce8063a40b4f9a6f09a14ccb",
+  "transaction_hash": "0x6a1679fa9372634b5365e22768dd4e0cecb33fee6f8e59e34b87605e7d39f096",
+  "contract_address": "0x9f1A4B593b61767BfF97c50A662e90D2c7470b85",
+  "lifecycle": "FINALIZED",
+  "execution_result": "FINISHED_WITH_RETURN",
+  "user_value": "0",
+  "status": "SUPERSEDED_NO_WRITES"
+}

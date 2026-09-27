@@ -1,0 +1,19 @@
+{
+  "record_type": "deployment",
+  "network": "studio-dev",
+  "chain_id": 61997,
+  "rpc": "https://studio-dev.genlayer.com/api",
+  "explorer": "https://explorer-studio-dev.genlayer.com",
+  "source_sha256": "90d1fe9893145854ea49e68e2900f91d8159f4a159c07046e4a6b57297c225ed",
+  "runner": "py-genlayer:5jycge4q8k23462jtb0b9fyey1s9qz928sz2nbrd9mg4sxqg2qng",
+  "transaction_hash": "0x6bb85988c37a550ae5aeeadbde2bbf2b19fbdc3025567965d9f8cade8cfe0004",
+  "contract_address": "0x0aBFc2798898783510091344C9B1820205a3DdF1",
+  "status": "finalized",
+  "consensus_result": "MAJORITY_AGREE",
+  "execution_result": "FINISHED_WITH_RETURN",
+  "fee_deposit": "100000000000010352",
+  "user_value": "0",
+  "lifecycle": "FINALIZED",
+  "explorer_contract_url": "https://explorer-studio-dev.genlayer.com/address/0x0aBFc2798898783510091344C9B1820205a3DdF1",
+  "explorer_transaction_url": "https://explorer-studio-dev.genlayer.com/transactions/0x6bb85988c37a550ae5aeeadbde2bbf2b19fbdc3025567965d9f8cade8cfe0004"
+}

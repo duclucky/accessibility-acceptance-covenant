@@ -1,0 +1,83 @@
+{
+  "record_type": "canonical_lifecycle",
+  "network": "studio-dev",
+  "chain_id": 61997,
+  "contract_address": "0x0aBFc2798898783510091344C9B1820205a3DdF1",
+  "case_id": "aac-demo-20260927-v1",
+  "policy_url": "https://www.w3.org/TR/WCAG22/",
+  "policy_sha256": "6e3c5fe397257cae509a2fb4752b73062cf8cbeb92c2cec618989b17e4cf7057",
+  "policy_byte_length": 512457,
+  "report_transport": "httpbin exact base64 endpoint",
+  "transactions": [
+    {
+      "transaction_hash": "0xa080c614e8573dffe1e5408ef17a982174f4d7f10beffa17bca2319563f33fad",
+      "contract_address": "0x0aBFc2798898783510091344C9B1820205a3DdF1",
+      "status": "finalized",
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "fee_deposit": "100000000000010352",
+      "user_value": "0",
+      "method": "submit_evaluator_report"
+    },
+    {
+      "transaction_hash": "0x924161e5b129c2e226eab0795235942de95dbde2b3e006fdb51102e680119ee2",
+      "contract_address": "0x0aBFc2798898783510091344C9B1820205a3DdF1",
+      "status": "finalized",
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "fee_deposit": "100000000000010352",
+      "user_value": "0",
+      "method": "submit_evaluator_report"
+    },
+    {
+      "transaction_hash": "0x24c77c271cc050b52873a93003bb71d08c7d1ce24714fbe557d597b623d775c5",
+      "contract_address": "0x0aBFc2798898783510091344C9B1820205a3DdF1",
+      "status": "finalized",
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "fee_deposit": "382314000010352",
+      "user_value": "0",
+      "method": "adjudicate"
+    },
+    {
+      "transaction_hash": "0x5c4061c16fba8335caa6a2f14ccec97fe076510c82b9993a0b64b1edec0e5b70",
+      "contract_address": "0x0aBFc2798898783510091344C9B1820205a3DdF1",
+      "status": "finalized",
+      "consensus_result": "MAJORITY_AGREE",
+      "execution_result": "FINISHED_WITH_RETURN",
+      "fee_deposit": "378564000010352",
+      "user_value": "0",
+      "method": "finalize_procurement_acceptance"
+    }
+  ],
+  "canonical_case": {
+    "adjudication_deadline": 1790491219,
+    "buyer": "0xC495ef51618D03267A1f227aFe5b27B38c748272",
+    "case_id": "aac-demo-20260927-v1",
+    "corroborating_evaluator": "0x45248be151F7f7e230150db23774733Cd966Eb45",
+    "created_at": 1790484029,
+    "cure_deadline": 1790498419,
+    "evidence_deadline": 1790487619,
+    "primary_evaluator": "0x45aD397c438397A702B53a7499a78D08961D39Db",
+    "retry_deadline": 1790494819,
+    "state": "PROCUREMENT_ACCEPTED",
+    "vendor": "0x017D13fe11263159470130EC1F2f96879e8FD40c"
+  },
+  "canonical_verdict": {
+    "attempt_nonce": "adjudication-v1",
+    "authority_failures": "",
+    "criterion_ids": "criterion-a|criterion-b",
+    "cure_target_ids": "",
+    "process_ids": "process-a",
+    "sample_ids": "sample-a|sample-b",
+    "unresolved_ids": "",
+    "verdict": "ACCEPTED"
+  },
+  "canonical_consequence": {
+    "release_eligible": true
+  },
+  "limitations": [
+    "Demo reports are synthetic exact-byte fixtures, not evidence of real procurement adoption.",
+    "Transaction identities authenticate fixture submitters; they do not prove evaluator competence."
+  ]
+}

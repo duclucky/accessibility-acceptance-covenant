@@ -1,0 +1,18 @@
+{
+  "binding_type": "forge-build-handoff-3.1",
+  "run_id": "20260927t025219z-intelligent-contracts",
+  "candidate_id": "accessibility-acceptance-covenant",
+  "candidate_revision": 1,
+  "target_track": "INTELLIGENT_CONTRACTS",
+  "project_slug": "accessibility-acceptance-covenant",
+  "registry_record_hash": "fc6377f4a1377bde78a8a487f4aeed18eb72f05a46cf2b7e8d23b403a83da438",
+  "finalist_hash": "1e10932df9903bea8fe774e6f8d31035b58129c05e439c21ade2925df8687d8a",
+  "candidate_chain_hash": "a6f3cce4185980af96450cecddc1ab26edd312030160890feadf0f90391b2a1d",
+  "readiness_record_hash": "4206c77f86c7804779ea4b5b1680ce16e78a30ffc89d74d13ee0fe369232901a",
+  "alignment_snapshot_hash": "a42e664c2e41652ce85f0fd83e98355f8451dc087300518cf75bd361e014e77e",
+  "build_handoff_hash": "d9a303d4735264ac66ad5e7cb3fcab78da0f9235af219c034311312644d580d3",
+  "selected_execution_guide": "execution/INTELLIGENT-CONTRACTS.md",
+  "public_claim_boundary": "AccessibilityAcceptanceCovenant is a contract-only reference primitive that adjudicates whether two exact, evaluator-bound accessibility evaluation records cover one locked ICT release and profile well enough to enable a one-time internal procurement-acceptance transition. It does not prove universal WCAG or legal compliance, evaluator competence, live-product accessibility, procurement award, external enforcement, adoption, or savings.",
+  "policy_drift": [],
+  "disposition": "HANDOFF_READY"
+}

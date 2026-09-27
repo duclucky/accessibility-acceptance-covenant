@@ -1,0 +1,8 @@
+{
+  "name": "accessibility-acceptance-covenant",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "check": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/check.ps1"
+  }
+}

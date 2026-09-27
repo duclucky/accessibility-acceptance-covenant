@@ -1,0 +1,23 @@
+{
+  "record_type": "local_verification",
+  "verified_at": "2026-09-27T04:52:00Z",
+  "network_target": "studio-dev",
+  "chain_id": 61997,
+  "contract_count": 1,
+  "public_method_count": 18,
+  "write_method_count": 11,
+  "view_method_count": 7,
+  "test_count": 11,
+  "contract_source_sha256": "90d1fe9893145854ea49e68e2900f91d8159f4a159c07046e4a6b57297c225ed",
+  "checks": {
+    "genvm_lint": "PASS",
+    "strict_typecheck": "PASS",
+    "direct_and_unit_tests": "11 PASS",
+    "studio_dev_read_only_schema": "PASS",
+    "track_tree": "PASS: one contract and no frontend"
+  },
+  "limitations": [
+    "Direct mode and read-only schema validation are local/preflight evidence, not production deployment evidence.",
+    "No repository publication or adoption evidence is asserted."
+  ]
+}
