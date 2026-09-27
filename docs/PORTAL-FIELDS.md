@@ -1,6 +1,6 @@
-# Portal fields — publication-blocked draft
+# Portal fields — copy-ready
 
-These fields are complete except for the public repository and CI URLs. Do not paste them into the Portal until those two links are real and reverified.
+These fields are copy-ready after the linked public repository and latest CI run are verified. Final Portal submission still requires separate action-time authorization.
 
 ## Category
 
@@ -12,7 +12,7 @@ Accessibility Acceptance Covenant
 
 ## Repository
 
-`PENDING_EXPLICIT_PUBLICATION_AUTHORIZATION`
+https://github.com/duclucky/accessibility-acceptance-covenant
 
 ## Description
 
@@ -30,8 +30,8 @@ Accessibility Acceptance Covenant is a reusable, contract-only GenLayer primitiv
 - Deployment: https://explorer-studio-dev.genlayer.com/transactions/0x6bb85988c37a550ae5aeeadbde2bbf2b19fbdc3025567965d9f8cade8cfe0004
 - Semantic adjudication: https://explorer-studio-dev.genlayer.com/transactions/0x24c77c271cc050b52873a93003bb71d08c7d1ce24714fbe557d597b623d775c5
 - Final consequence: https://explorer-studio-dev.genlayer.com/transactions/0x5c4061c16fba8335caa6a2f14ccec97fe076510c82b9993a0b64b1edec0e5b70
-- Repository: `PENDING_EXPLICIT_PUBLICATION_AUTHORIZATION`
-- CI: `PENDING_REPOSITORY_PUBLICATION_AND_SUCCESSFUL_RUN`
+- Repository: https://github.com/duclucky/accessibility-acceptance-covenant
+- CI: https://github.com/duclucky/accessibility-acceptance-covenant/actions/workflows/ci.yml
 
 ## Validator inspection and consequence
 

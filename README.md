@@ -1,5 +1,7 @@
 # Accessibility Acceptance Covenant
 
+[![CI](https://github.com/duclucky/accessibility-acceptance-covenant/actions/workflows/ci.yml/badge.svg)](https://github.com/duclucky/accessibility-acceptance-covenant/actions/workflows/ci.yml)
+
 A reusable GenLayer Intelligent Contract for a bounded, release-specific accessibility evaluation covenant. Two distinct configured evaluator addresses bind exact report bytes. Validators refetch those bytes, compare a normalized semantic decision, and deterministic code rejects missing/extra IDs or invalid consequence mappings.
 
 Only a stored `ACCEPTED` verdict lets the buyer execute the one-time transition to `PROCUREMENT_ACCEPTED`. Unavailable evidence, digest mismatch, or malformed semantic output cannot make a release eligible.
